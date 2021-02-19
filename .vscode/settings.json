@@ -1,0 +1,9 @@
+{
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 12,
+    "editor.fontLigatures": true,
+    "debug.console.fontSize": 12,
+    "markdown.preview.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontSize": 12,
+    "editor.codeLensFontFamily": "JetBrains Mono"
+}

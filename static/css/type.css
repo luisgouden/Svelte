@@ -1,0 +1,45 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  font-size: clamp(16px,
+    calc(16px + 8 * ((100vw - 320px) / 880)),
+    24px);
+}
+
+h1 {
+  font-size: clamp(2rem,
+    calc(28px + 26 * ((100vw - 320px) / 880)),
+    3.5rem);
+}
+
+h2 {
+  font-size: clamp(1.75rem,
+    calc(25px + 19.5 * ((100vw - 320px) / 880)),
+    3rem);
+}
+
+h3 {
+  font-size: clamp(1.5rem,
+    calc(23px + 13 * ((100vw - 320px) / 880)),
+    2.5rem);
+}
+
+h2 {
+  font-weight: 500
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-weight: 300
+}
+
+b, strong {
+  font-weight: 600
+}
+
+a{
+  color:var(--black);
+}

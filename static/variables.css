@@ -1,0 +1,15 @@
+:root {
+  --black: hsl(338, 0%, 10%);
+  --shadowone: hsl(338, 0%, 84%);
+  --shadowtwo: hsl(338, 0%, 96%);
+  --blackHover: hsl(338, 0%, 0%);
+  --white: hsl(338, 0%, 100%);
+  --grey: hsl(338, 0%, 50%);
+  --primary: #fff;
+  --secondary: #fff;
+  --heightMenu: 3em;
+  --heightMenuMobile: 6em;
+  --unit: 8em;
+  --maxwidth: 1000px;
+}
+ 

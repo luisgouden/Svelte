@@ -1,0 +1,67 @@
+.inline {
+  display: inline-block;
+}
+
+.desktop {
+  display: none;
+}
+
+.mobile {
+  display: flex;
+}
+
+.tabtodesktop {
+  display: none;
+}
+
+.tabtomobile {
+  display: flex;
+}
+
+h5{
+  width: 100%;
+  height: 5vw;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h6{
+  width: 100%;
+  height: 5vw;
+  background-color: lightsteelblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .tabtodesktop {
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .tabtomobile {
+    display: none;
+  }
+
+  .tabtodesktop {
+    display: flex;
+  }
+
+  .desktop {
+    display: flex;
+  }
+}
