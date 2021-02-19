@@ -20,6 +20,6 @@
   <title>tienda</title>
 </svelte:head>
 
-<h1>tiendas</h1>
+<h1>tienda</h1>
 
 <Container {posts} />
