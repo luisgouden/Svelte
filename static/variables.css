@@ -12,4 +12,5 @@
   --heightMenuMobile: 6em;
   --unit: 8em;
   --maxwidth: 1000px;
+  --widthGap: calc(1000px - 1rem);
 }
