@@ -58,15 +58,10 @@
       align-items: flex-start;
     }
   }
-  p {
-    font-size: 120%;
-  }
 </style>
 
 <aside>
-  <Brand>
-    <p>Felix Porteiro</p>
-  </Brand>
+  <Brand />
   <nav class={length >= 4 ? "todo" : "casi"}>
     <ul>
       {#each config.Links as link}

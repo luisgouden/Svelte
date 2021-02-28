@@ -9,6 +9,15 @@
   let layout = config.Layout;
 </script>
 
+<style>
+  main {
+    background-image: url(back.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+</style>
+
 {#if !config.Landing}
   {#if layout === "column"}
     <Menu {config} {segment} />
@@ -21,6 +30,6 @@
   <slot />
 </main>
 
-{#if config.Landing}
+{#if !config.Landing}
   <Footer {config} {segment} />
 {/if}

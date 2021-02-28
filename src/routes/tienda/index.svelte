@@ -10,7 +10,7 @@
 
 <script>
   export let posts;
-  import Container from "/src/components/ItemContainer.svelte";
+  console.log(posts);
 </script>
 
 <style>
@@ -21,5 +21,3 @@
 </svelte:head>
 
 <h1>tienda</h1>
-
-<Container {posts} />
